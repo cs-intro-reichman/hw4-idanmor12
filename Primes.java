@@ -8,6 +8,8 @@ public class Primes {
         int numOfPrimes = 0;
         int currPrime;
 
+        System.out.println("Prime numbers up to " + size + ":");
+
         for (int i = 2; i < size+1; i++) {
             isPrime[i] = true;
         }
